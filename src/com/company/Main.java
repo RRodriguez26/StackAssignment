@@ -1,9 +1,17 @@
 package com.company;
 
+/* Rafael Rodriguez
+*  February 23th, 2021
+*  Professor Chuck Herbert
+* Stackies
+*/
+
+
+
 public class Main {
 
     public static void main(String[] args) {
-        
+
         Stackies newStack = new Stackies();
 
         //A string array for cities
