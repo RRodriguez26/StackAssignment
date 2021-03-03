@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         Stackies newStack = new Stackies();
+        queue newQueue = new queue();
 
         //A string array for cities
         String[] cities = { "Philadelphia, PA",
@@ -44,6 +45,16 @@ public class Main {
             cities[k] = newStack.pop(); //
             System.out.println(cities[k]);
         } //End for loop
+
+        //Using a for loop to added cities into queue
+        for (String city : cities) {
+            newQueue.enqueue(city);
+        } //End for loop
+
+        //Using while loop to run while it is not empty
+        while(!newQueue.isEmpty()){
+            newQueue.dequeue();
+        }
 
     } //End main method
 
