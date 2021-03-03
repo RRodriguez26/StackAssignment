@@ -1,9 +1,9 @@
 package com.company;
 
 /* Rafael Rodriguez
-*  February 23th, 2021
+*  March 2nd, 2021
 *  Professor Chuck Herbert
-* Stackies
+* Stackies and Queues
 */
 
 
